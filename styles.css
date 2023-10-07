@@ -1,0 +1,96 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial Rounded MT Bold";
+    
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+}
+
+header2 {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(, 20, 10, .1);
+    border-radius: 10px; /* Rounded corners */
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section2 {
+    background-color: #fff;    
+}
+/*
+area:hover 
+    background-color: rgba(238, 238, 238,0.75); 
+    cursor: pointer; */
+
+section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+img:not(.no-padding) {
+    padding: 80px;
+    }
+
+.image-map-container {
+    width: 1500px; /* Set the desired width */
+}
+
+.no-padding {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+}
+
+footer {
+    background-color: #fff
+    color: #333;
+    text-align: center;
+    padding: 40px;
+    font-size: 60px;
+}
